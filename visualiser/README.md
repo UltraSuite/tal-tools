@@ -1,8 +1,6 @@
 # TaL Tools Visualiser
 This directory contains a module to help with the visualisation of the TaL corpus.
 
-
-
 #### Requirements
 
 Please make sure the following Python libraries and their dependencies are available.
@@ -29,10 +27,22 @@ Or
 
 `python visualiser.py -c config.ini -s 05ms -f 003_cal`
 
-This command will make a video using utterance 003_cal from speaker 05ms.
+This command will make a video using utterance `003_cal` from speaker `05ms`.
 
 
 #### Examples
 
-TODO
+The visualiser assumes we always want to visualise the ultrasound and the video.
+The user has the option to also include the prompt text, waveform, or spectrogram.
+The data can be visualised with a dark or a light background.
+
+For a longer set of samples, please see the `samples` directory.
+
+###### Sample 1
+
+![70ms_003_cal_frame191_dark_1](samples/70ms_003_cal_frame191_dark_1.jpg)
+
+###### Sample 2
+
+![70ms_003_cal_frame191_dark_1](samples/70ms_003_cal_frame191_light_1.jpg)
 
